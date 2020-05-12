@@ -22,6 +22,12 @@ p {
   font-size: 1.75rem;
 }
 
+@media(max-width:992px){
+  .member {
+    padding-top: 20px;
+  }
+}
+
 .center h1 {
   text-align:center;
 }
