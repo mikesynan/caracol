@@ -6,19 +6,19 @@
 
    body {
        opacity: 1;
-       transition: 1s opacity;
+       transition: .5s opacity;
    }
    body.fade-out {
        opacity: 0;
        transition: none;
    }
-   
+
 .btn {
   background-image: none;
   border: none;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .logo img {
