@@ -4,6 +4,11 @@
    Author's custom styles
    ========================================================================== */
 
+
+h1, h2, h3, h4 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 2.5rem;
+}
    body {
        opacity: 1;
        transition: .5s opacity;
@@ -12,6 +17,10 @@
        opacity: 0;
        transition: none;
    }
+
+p {
+  font-size: 1.75rem;
+}
 
 .btn {
   background-image: none;
@@ -26,23 +35,29 @@
   margin:auto;
 }
 
-.jumbotron .btn {
-  display: block;
-  margin: auto;
-  max-width: 200px;
+.about .btn {
+  display: block;margin: auto;
+max-width: 200px;
 }
 
+.description{
+  padding-bottom: 20px;
+}
+
+.description p {
+  padding-bottom: 10px;
+}
 .profile img {
   max-width: 100%;
-   max-height: 100%;
-   padding-bottom: 20px;
+  max-height: 100%;
+  padding-bottom: 20px;
 }
 
 .jumbotron {
   background-color: #fff;
 }
 
-.jumbotron p {
+p {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
