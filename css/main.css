@@ -33,6 +33,7 @@ p {
 .logo img {
   display:block;
   margin:auto;
+  max-width: 95%;
 }
 
 .about .btn {
