@@ -22,6 +22,10 @@ p {
   font-size: 1.75rem;
 }
 
+.center h1 {
+  text-align:center;
+}
+
 .btn {
   background-image: none;
   border: none;
@@ -41,9 +45,20 @@ p {
 max-width: 200px;
 }
 
-.description{
+.description {
   padding: 20px;
   margin-bottom: 20px;
+}
+
+.about::after {
+  content: '';
+   width: 100%;
+   border-bottom: solid 1px #fff;
+   position: absolute;
+   left: 0;
+   top: 50%;
+   z-index: 1;
+  border-radius: 25%/50%;
 }
 
 .description p {
